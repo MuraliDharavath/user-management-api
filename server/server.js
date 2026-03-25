@@ -114,3 +114,5 @@ app.put("/users/:id", async (req, res) => {
 
   res.send("User Details Updated Successfully!");
 });
+
+module.exports=app;
